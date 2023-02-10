@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ {{>headlinks}} 
+</head>
+
+<body>
+  {{>navbar}}
+  <!--main header-->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <!--right side div-->
+          <div class="col-md-6 col-12 main_header_right align-items-center" style="overflow: hidden;">
+            <figure>
+              <img src="images/programmer.png" alt="Mayur" class="img-fluid" title="mayur patel">
+            </figure>
+          </div>
+          <!--left side div-->
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to my page</p>
+            <h1>I am a Web<span class="text_clr"> Developer </span> Working on -- <br><span class="text_clr_skill">
+                C++ |<br class="text_break">
+                HTML |<br class="text_break">
+                CSS |<br class="text_break">
+                JAVASCRIPT |<br class="text_break">
+                NODE-JS |<br class="text_break">
+                EXPRESS-JS |<br class="text_break">
+                BOOTSTRAP 
+                </span></h1>
+            <a href="/weather"><button>About me</button></a>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--footer code-->
+ {{>footer}}
+</body>
+
+</html>
